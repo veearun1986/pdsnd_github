@@ -1,9 +1,9 @@
 ### Date created
-Bikeshare project created on 06-11-2019
+Bikeshare project created on 06-11-2019 12:02AM
 README file created on 07-11-2019
 
 ### Project Title
-**BIKESHARE ANALYSIS**
+**BIKESHARE ANALYSIS IN PYTHON**
 
 ### Description
 Bikeshare analysis sheds light on interesting facts about sharing bikes in major U.S cities viz. Chicago, Washington D.C. & New York City.
