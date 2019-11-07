@@ -1,15 +1,27 @@
 ### Date created
-Include the date you created this project and README file.
+Bikeshare project created on 06-11-2019
+README file created on 07-11-2019
 
 ### Project Title
-Replace the Project Title
+**BIKESHARE ANALYSIS**
 
 ### Description
-Describe what your project is about and what it does
+Bikeshare analysis sheds light on interesting facts about sharing bikes in major U.S cities viz. Chicago, Washington D.C. & New York City.
+Facts ranges from most popular station, how much time spent in a trip most popular hour, gender split etc.
+With the help of Python, huge data can be processed in seconds and churn out interesting insights.
+
 
 ### Files used
-Include the files used
+chicago.csv; new_york_city.csv; washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Important URLs that helped me through out this project
+https://www.geeksforgeeks.org/python-pandas-dataframe-idxmax/
 
+https://www.geeksforgeeks.org/python-pandas-series-to_string/
+
+http://www.trytoprogram.com/python-programming/python-built-in-functions/divmod/
+
+https://www.geeksforgeeks.org/try-except-python/
+
+https://www.journaldev.com/23610/python-string-equals
