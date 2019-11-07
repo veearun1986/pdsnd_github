@@ -152,8 +152,7 @@ def trip_duration_stats(df):
 
     # TO DO: display mean travel time
     mean_travel_time = df['Trip Duration'].mean()
-    minut, sec = divmod(mean_travel_time, 60)
-    print('The mean travel time is : {} minutes, {} seconds'.format(minut, sec))
+    print('The mean travel time is :', mean_travel_time/60, "minutes")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -180,8 +179,11 @@ def user_stats(df):
         print('\ngender types not available for this month:\n')
 
     # TO DO: Display earliest, most recent, and most common year of birth
-    earliest = int(df['Birth Year'].min())
-    print('The earliest year when someone was born is :\n', earliest)
+    try:
+        earliest = int(df['Birth Year'].min())
+        print('\nEarliest Birth Year:', earliest)
+    except KeyError:
+        print("\nEarliest Birth Year:\nData not available.")
 
     most_recent = int(df['Birth Year'].max())
     print('The most recent year of when someone born is :\n', most_recent)
